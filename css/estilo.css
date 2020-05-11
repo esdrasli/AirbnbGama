@@ -100,7 +100,7 @@ a.paginate__link {
 a.paginate__link:hover { text-decoration: none; }
 
 /* Footer */
-.footer { background: var(--color-grey); }
+.footer { background-color: darkgrays; }
 .footer__copyright { line-height: 50px; }
 .footer__developer span { 
     font-weight: 600;
