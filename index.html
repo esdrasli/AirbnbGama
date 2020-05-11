@@ -50,29 +50,31 @@
             <div class="row">
                 <div class="col-12">
                     <p class="text-left header__info header__amount"></p>
-                    <h3 class="mb-3 header__title">Acomodações em Porto de Galinhas</h3>
+                    <h3 class="mb-3 header__title">Acomodações em Sâo Paulo</h3>
                     <p class="text-left header__info"><strong>Verifica as restrições de viagens antes de fazer a sua reserva.</strong> A saúde e a segurança das nossas comunidades vêm sempre em primeiro lugar. Siga as orientações do governo e viaje apenas se for essencial.</p>
                 </div>
             </div>
-            
-            <div id="map"></div>
-                <script>
+            <div class="row">
+                <div class="col-6">
+                     <div id="map"></div>
+                        <script>
 
-                    function initMap() {
+                             function initMap() {
 
-                     var uluru = {lat:  -23.5489, lng:  -46.6388};
-
-                     var map = new google.maps.Map(
-                        document.getElementById('map'), {zoom: 4, center: uluru});
-
-                        var marker = new google.maps.Marker({position: uluru, map: map});
-                    }
-                </script>
+                                var uluru = {lat:  -23.5489, lng:  -46.6388};
+                                var map = new google.maps.Map(
+                                document.getElementById('map'), {zoom: 4, center: uluru});
+                                var marker = new google.maps.Marker({position: uluru, map: map});
+                            }
+                        </script>
  
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDPcEVMVjft3L5UFYFMfMXdIRXVXAka8LU&callback=initMap">
-    </script>
+                        <script async defer
+                             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDPcEVMVjft3L5UFYFMfMXdIRXVXAka8LU&callback=initMap">
+                        </script>
             
+                     </div>
+                </div>
+            </div>
         </div>
 
         <!-- Content -->
